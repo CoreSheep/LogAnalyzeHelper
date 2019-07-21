@@ -37,6 +37,7 @@ public class DataClean {
             }
 
         }
+        //1.0.1.0|1.0.3.255|16777472|16778239|亚洲|中国|福建|福州||电信|350100|China|CN|119.306239|26.075302
         @Override
         protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
             try
